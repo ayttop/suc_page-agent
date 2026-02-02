@@ -1,0 +1,45 @@
+
+
+
+الحمد لله
+
+استغل
+اكستنشن ومتصفخ
+
+
+https://github.com/alibaba/page-agent/issues/131
+https://github.com/alibaba/page-agent/issues/130
+
+
+
+
+git clone https://github.com/alibaba/page-agent.git
+cd page-agent
+تثبيت التبعيات
+
+npm install
+تشغيل التطوير
+
+npm start
+
+افتح
+C:\Users\m\Desktop\44\page-agent\packages\website\src\constants.ts
+
+C:\Users\m\Desktop\44\page-agent\packages\page-agent\src/demo.ts
+
+ابحث عن
+
+https://hwcxiuzfylggtcktqgij.supabase.co/functions/v1/llm-testing-proxy
+PAGE-AGENT-FREE-TESTING-RANDOM
+عدلهم الى
+http://localhost:11434/v1
+qwen3:4b
+
+
+.env
+C:\Users\m\Desktop\44\page-agent\packages\website
+C:\Users\m\Desktop\44\page-agent
+VITE_LLM_BASE_URL=http://localhost:11434/v1
+VITE_LLM_API_KEY=ollama
+VITE_LLM_MODEL_NAME=qwen3:4b
+
